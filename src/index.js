@@ -1,17 +1,40 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+// import App from "./App";
+import "./index.css";
+// import Main from "./Component/Main";
+// import ConditionalRendering from "./Component3/ConditionalRendering";
+// import Bootstrap from "./Component4/Bootstrap";
+// import Calculator from "./Component4/Calculator";
+// import App from "./Component5/App";
+// import CovidMain from "./Component5/CovidMain.jsx";
+// import TemplateMain from "./Component6/TemplateMain.jsx";
+// import MainApp from "./Component7/MainApp.jsx";
+// import MainNetflix from "./Component8/MainNetflix.jsx";
+// import MainSlot from "./Component9/MainSlot";
+// import Mainhook from "./component10/Mainhook";
+// import MainForm from "./Component11/MainForm";
+// import Todofile from "./component12/Todofile";
+import App from "./Component13/App.jsx";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+ReactDOM.render(
+  <>
+    {/* <App /> */}
+    {/* <App /> */}
+    {/* <Main /> */}
+    {/* <ConditionalRendering /> */}
+    {/* <Calculator /> */}
+    {/* <Bootstrap /> */}
+    {/* <CovidMain /> */}
+    {/* <TemplateMain /> */}
+    {/* <MainApp /> */}
+    {/* <MainNetflix /> */}
+    {/* <MainSlot /> */}
+    {/* <MainForm /> */}
+    {/* <Todofile /> */}
     <App />
-  </React.StrictMode>
+  </>,
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

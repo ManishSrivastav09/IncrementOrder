@@ -1,0 +1,25 @@
+body {
+    background-color: purple;
+}
+
+.main {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 18px;
+
+
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    border-radius: 8px;
+    width: 150px;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+
+
+}
