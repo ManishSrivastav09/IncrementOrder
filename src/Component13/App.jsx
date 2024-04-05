@@ -45,6 +45,8 @@ const App = () => {
       <div className="main">
         <div>
           <h1>{Increment}</h1>
+          <h1>manish srivastav</h1>
+          <p>gitbase</p>
           <button onClick={increment}>Increment</button>
           <button onClick={decrement}>Decrement</button>
         </div>
