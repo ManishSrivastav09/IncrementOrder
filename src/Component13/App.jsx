@@ -30,6 +30,10 @@
 
 // export default App;
 import React, { useState } from "react";
+import AddIcon from "@mui/icons-material/Add";
+import DeleteIcon from "@mui/icons-material/Delete";
+import Button from "@mui/material/Button";
+import Tooltip from "@mui/material/Tooltip";
 import "./App.css";
 const App = () => {
   const [Increment, SetIncrement] = useState(0);
@@ -45,17 +49,18 @@ const App = () => {
       <div className="main">
         <div>
           <h1>{Increment}</h1>
-          <h1>manish srivastav</h1>
-          <p>gitbase</p>
-          <p>github</p>
-          <p>github</p>
-          <p>github</p>
-          <p>github</p>
-          <p>manish</p>
-          <p>saurabh</p>
-          <p>kishan</p>
-          <button onClick={increment}>Increment</button>
-          <button onClick={decrement}>Decrement</button>
+          <div className="button">
+            <Tooltip title="Add">
+              <Button onClick={increment}>
+                <AddIcon />
+              </Button>
+            </Tooltip>
+            <Tooltip title="Delete">
+              <Button onClick={decrement}>
+                <DeleteIcon />
+              </Button>
+            </Tooltip>
+          </div>
         </div>
       </div>
     </div>
