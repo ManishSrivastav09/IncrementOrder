@@ -36,9 +36,11 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import "./App.css";
 const App = () => {
+
   const [Increment, SetIncrement] = useState(0);
 
   const increment = () => {
+    
     SetIncrement(Increment + 1);
   };
   const decrement = () => {
